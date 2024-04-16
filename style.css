@@ -44,11 +44,11 @@
 .infoContainer {
     /*background-color: rgb(202,9,128);*/
     position: absolute;
-    height: 58vh;
+    /* height: 58vh;
     width: 38vw;
     margin: 88px 287px 318px 566px;
     display: block;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 .devInfo {
     font-size: 16px;
@@ -62,13 +62,42 @@
 }
 
 .name{
-    font-size: 3em;
+    /* font-size: 3em;
     font-weight: bold;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif; */
+    width: 160px;
+    height: 24px;
+    top: 499px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    color: var(--black, #2C2B2B);
+
+
+
 }
 
 .about{
-    font-size: 2.5em ;
+    width: 343px;
+    height: 60px;
+    top: 538px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #787878;
+
+
 }
 
 .moreabout{
