@@ -273,10 +273,28 @@ color:  var(--black, rgba(44, 43, 43, 1));
 
 
 }
+.contactform form div input .form-control{
+    width: 68px;
+height: 15px;
+top: 153px;
+left: 36px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 14.63px;
+text-align: left;
 
-.contactform form {
-    margin: 0 40px;
+color: rgba(127, 127, 127, 1);
+
 }
+
+
+
+/* .contactform form {
+    margin: 0 40px;
+} */
 
 
 #emailHelp{
@@ -289,14 +307,53 @@ color:  var(--black, rgba(44, 43, 43, 1));
 
 #form-check{
     flex-direction: row;
+    
 
 }
 
 #form-check input{
-    width: 24px;
+    width: 22px;
+    height: 22px;
+    top: 431px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    
     margin: 3px 0;
 
 }
+#form-check-label{
+    width: 313px;
+    height: 21px;
+    top: 431px;
+    left: 46px;
+    gap: 0px;
+    opacity: 0px;
+    rotate: 0 deg;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21.35px;
+    text-align: left;
+    
+
+
+    
+
+
+}
+.buttons1{
+   background-color: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+   ;
+ 
+ animation: Smart animate;
+ Spring:  {mass: 1, stiffness: 100, damping: 15 };
+
+
+}
+
+
+
 .blogItem {
     margin: 20px;
     font-family: 'Fira Sans', sans-serif;
