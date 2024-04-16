@@ -114,34 +114,77 @@
 
 .skip {
     position: relative;
-    padding: 9px 14px;
+    /* padding: 9px 14px;
     border-radius: 22px;
     color: white;
     
     font-weight: 100px;
     font-size: 1.4em;
     /* margin: 1px 3px -4px 290px; */
-    left: 300px;
+    /* left: 300px;
     
-    cursor: pointer;
+    cursor: pointer; */ 
+
+    width: 36px;
+    height: 20px;
+    top: 44px;
+    left: 323px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #9FB2FF;
+    
+    animation: Smart animate;
+     spring: { mass: 1, stiffness: 100, damping: 15 };
+
+
+    
+
+
      
 }
 
 .btn {
+/* 
+     position: relative; */
 
-    position: relative;
-
-    padding: 9px 14px;
+    /* padding: 9px 14px;
     border-radius: 80px;
     color: white;
     background-color: dodgerblue;
     font-weight: bold;
     font-size: 2em;
     /* margin: 3px 199px; */
-    left: 250px;
+    /* left: 250px;
 
     cursor: pointer;
-     
+      */  
+      width: 60px;
+    height: 60px;
+    top: 696px;
+    left: 299px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-width: 0px, 0px, 0px, 0px;
+
+    border-style: solid;
+    background-color:#89A1FF ;
+
+    border-color: #89A1FF;
+    
+ animation: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 917ms;
+border-radius: 50%;
+
+
+
+
 }
 .btn-sm{
     font-size: 10px;
@@ -161,9 +204,25 @@
     height: 450px;
     
 }
-.devPic2 img {
-    height: 350px;
-    width: 400px;
+
+
+.devPic11 img {
+    width: 282px;
+height: 282px;
+top: 132px;
+left: 46px;
+gap: 0px;
+opacity: 0px; 
+}
+
+.devPic22 img {
+    width: 352px;
+    height: 234.61px;
+    top: 156px;
+    left: 11px;
+    gap: 0px;
+    opacity: 0px;
+
     
 }
 
@@ -177,22 +236,42 @@
 }
 
 .contactform h1{
-    font-family: 'Source Code Pro', monospace;
-    /*padding: 12px 0; */
+    width: 163px;
+height: 23px;
+top: 68px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 23.44px;
+text-align: left;
+color:  var(--black, rgba(44, 43, 43, 1));
+;
     
 
 }
-.contactform form div {
+/* .contactform form div {
     padding: 10px 0;
     display: flex;
     flex-direction: column; 
-}
+} */
 
 .contactform form div input{
    /* width: 26vw; */
-    border-radius: 5px;
-    margin: 6px 0 0 0;
+    
     padding: 3px;
+    width: 343px;
+    height: 50px;
+    top: 135px;
+    left: 16px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(241, 241, 241, 1);
+
+
 }
 
 .contactform form {
