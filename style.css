@@ -6,33 +6,10 @@
     padding: 0;
 }
 
-/* 
-.sidebar {
-    position: absolute;
-    background-color: rgb(223,218,218);
-   /* width: 434px;*/
-    /* font-family: "Fira Sans", sans-serif;
-    height: 100vh;
-    transition: transform 0.3s ease-in;
-} */ */
 
-/* .sidebar nav{
-    padding: 45px;
-} */
-
-/* .sidebar nav li {
-    list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
-} */
-
-/* .sidebar nav li a{
-    text-decoration: none;
-    color: black;
-} */
 
 .main{
-    /*background-color: yellow;*/
+   
     width: 90vw;
     padding: 23px;
 }
@@ -42,13 +19,11 @@
 }
 
 .infoContainer {
-    /*background-color: rgb(202,9,128);*/
+    
+
     position: absolute;
-    /* height: 58vh;
-    width: 38vw;
-    margin: 88px 287px 318px 566px;
-    display: block;
-    justify-content: space-around; */
+    top: 0; right: 0; bottom: 0; left: 0;
+    border: 15px solid;
 }
 .devInfo {
     font-size: 16px;
@@ -62,9 +37,7 @@
 }
 
 .name{
-    /* font-size: 3em;
-    font-weight: bold;
-    font-family: "Fira Sans", sans-serif; */
+    
     width: 160px;
     height: 24px;
     top: 499px;
@@ -107,23 +80,15 @@
 
 }
 .buttons{
-    /*margin-top: 34px;*/
+    
     margin: 2.2em;
     font-size: 16px;
+    
 }
 
 .skip {
     position: relative;
-    /* padding: 9px 14px;
-    border-radius: 22px;
-    color: white;
     
-    font-weight: 100px;
-    font-size: 1.4em;
-    /* margin: 1px 3px -4px 290px; */
-    /* left: 300px;
-    
-    cursor: pointer; */ 
 
     width: 36px;
     height: 20px;
@@ -139,7 +104,7 @@
     color: #9FB2FF;
     
     animation: Smart animate;
-     spring: { mass: 1, stiffness: 100, damping: 15 };
+     
 
 
     
@@ -149,20 +114,10 @@
 }
 
 .btn {
-/* 
-     position: relative; */
 
-    /* padding: 9px 14px;
-    border-radius: 80px;
-    color: white;
-    background-color: dodgerblue;
-    font-weight: bold;
-    font-size: 2em;
-    /* margin: 3px 199px; */
-    /* left: 250px;
+    
 
-    cursor: pointer;
-      */  
+     
       width: 60px;
     height: 60px;
     top: 696px;
@@ -252,14 +207,10 @@ color:  var(--black, rgba(44, 43, 43, 1));
     
 
 }
-/* .contactform form div {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column; 
-} */
+
 
 .contactform form div input{
-   /* width: 26vw; */
+   
     
     padding: 3px;
     width: 343px;
@@ -292,9 +243,6 @@ color: rgba(127, 127, 127, 1);
 
 
 
-/* .contactform form {
-    margin: 0 40px;
-} */
 
 
 #emailHelp{
@@ -347,7 +295,7 @@ color: rgba(127, 127, 127, 1);
    ;
  
  animation: Smart animate;
- Spring:  {mass: 1, stiffness: 100, damping: 15 };
+ 
 
 
 }
@@ -403,7 +351,7 @@ color: rgba(127, 127, 127, 1);
     width: 265px;
     height: 6px;
     background-color: red;
-    border: 2px solid black;
+    
 }
 .hundered{
     width: 265px;
@@ -441,18 +389,14 @@ color: rgba(127, 127, 127, 1);
 }
 
 @media (max-width: 1615px) {
-   /* *{
-        background-color: rgb(230, 146, 146);
-    }*/
+   
      .buttons {
         font-size: 6px;
     }
     .devInfo{
         font-size: 10px;
     }
-    /* .devPic{
-        display: none;
-    } */
+    
     .intro, .blogContainer,.contactform {
         margin: 50px 8px;
     }
